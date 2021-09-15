@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Conversor de moedas</title>
+</head>
+<body>
+    <h1>Conversor de moeda - desafio aula 2 - Imersão Dev Alura</h1>
+    <h2>Descubra os valores em Real, Dólar, Euro e Bitcoin</h2>
+
+    <div class="container">
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" 
+            class="page-logo" alt=""><br><br>
+
+            <label for="moeda">Insira o valor (Dólar U$)</label><br>
+            <input type="number" id="valor" size="2" /><br>
+            <button type="submit" onclick="Converter()">Converter para Real</button>
+            <button type="submit" onclick="Converter2()"> Converter para Euro</button>
+            <h4 id="valorConvertido4"></h4>
+            <h2 id="valorConvertido"></h2>
+            <label for="moeda2">Insira o valor (Real R$)</label><br>
+            <input type="number" id="valor2" size="3" /><br>
+            <button type="submit" onclick="Converter3()">Converter para Dólar</button>
+            <button type="submit" onclick="Converter4()">Converter para Euro</button>
+            <h3 id="valorConvertido3"></h3>
+            <h5 id="valorConvertido5">
+            </h3>
+    </div>
+
+    <a href="https://alura.com.br/" target="_blank">
+        <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+   
+</body>
+</html>
